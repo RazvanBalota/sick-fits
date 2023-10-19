@@ -1,7 +1,7 @@
 module.exports =
 __NEXT_REGISTER_PAGE('/orders', function() {
           var comp =
-      webpackJsonp([7],{
+      webpackJsonp([8],{
 
 /***/ "./components/ErrorMessage.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -51178,7 +51178,7 @@ var OrderPage = function OrderPage(props) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 7:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/orders.js");
@@ -51186,7 +51186,7 @@ module.exports = __webpack_require__("./pages/orders.js");
 
 /***/ })
 
-},[6])
+},[7])
           return { page: comp.default }
         })
       ;

@@ -1559,7 +1559,7 @@ var Supreme = __WEBPACK_IMPORTED_MODULE_0_styled_components__["c" /* default */]
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return endpoint; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return perPage; });
+/* unused harmony export perPage */
 // This is client side config only - don't put anything in here that shouldn't be public!
 var endpoint = "http://localhost:4444";
 var perPage = 4;
