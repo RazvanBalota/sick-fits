@@ -5,7 +5,7 @@ webpackHotUpdate(1,{
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return endpoint; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return perPage; });
+/* unused harmony export perPage */
 // This is client side config only - don't put anything in here that shouldn't be public!
 var endpoint = "http://localhost:4444";
 var perPage = 4;
@@ -74,4 +74,4 @@ function createClient(_ref) {
 /***/ })
 
 })
-//# sourceMappingURL=1.8bb2c1ee4c3239061964.hot-update.js.map
+//# sourceMappingURL=1.9c126b496144b9d28963.hot-update.js.map

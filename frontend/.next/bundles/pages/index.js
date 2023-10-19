@@ -31969,7 +31969,7 @@ var Home = function Home(props) {
 
 /***/ }),
 
-/***/ 8:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
@@ -31977,7 +31977,7 @@ module.exports = __webpack_require__("./pages/index.js");
 
 /***/ })
 
-},[8])
+},[4])
           return { page: comp.default }
         })
       ;
