@@ -1,5 +1,5 @@
 # source: https://us1.prisma.sh/wesbos/siccccccccck-fits/dev
-# timestamp: Fri Aug 24 2018 14:33:54 GMT-0400 (EDT)
+# timestamp: Tue Sep 11 2018 16:26:22 GMT-0400 (EDT)
 
 type AggregateCartItem {
   count: Int!
@@ -146,7 +146,7 @@ input CartItemSubscriptionWhereInput {
 input CartItemUpdateInput {
   quantity: Int
   item: ItemUpdateOneInput
-  user: UserUpdateOneWithoutCartInput
+  user: UserUpdateOneRequiredWithoutCartInput
 }
 
 input CartItemUpdateManyWithoutUserInput {
@@ -435,7 +435,7 @@ input ItemUpdateDataInput {
   image: String
   largeImage: String
   price: Int
-  user: UserUpdateOneInput
+  user: UserUpdateOneRequiredInput
 }
 
 input ItemUpdateInput {
@@ -444,7 +444,7 @@ input ItemUpdateInput {
   image: String
   largeImage: String
   price: Int
-  user: UserUpdateOneInput
+  user: UserUpdateOneRequiredInput
 }
 
 input ItemUpdateOneInput {
@@ -1647,7 +1647,7 @@ input OrderUpdateInput {
   total: Int
   charge: String
   items: OrderItemUpdateManyInput
-  user: UserUpdateOneInput
+  user: UserUpdateOneRequiredInput
 }
 
 input OrderWhereInput {
@@ -2245,15 +2245,22 @@ input UserUpdateInput {
 input UserUpdateOneInput {
   create: UserCreateInput
   connect: UserWhereUniqueInput
+  disconnect: Boolean
   delete: Boolean
   update: UserUpdateDataInput
   upsert: UserUpsertNestedInput
 }
 
-input UserUpdateOneWithoutCartInput {
+input UserUpdateOneRequiredInput {
+  create: UserCreateInput
+  connect: UserWhereUniqueInput
+  update: UserUpdateDataInput
+  upsert: UserUpsertNestedInput
+}
+
+input UserUpdateOneRequiredWithoutCartInput {
   create: UserCreateWithoutCartInput
   connect: UserWhereUniqueInput
-  delete: Boolean
   update: UserUpdateWithoutCartDataInput
   upsert: UserUpsertWithoutCartInput
 }

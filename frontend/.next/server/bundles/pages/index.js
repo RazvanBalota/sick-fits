@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -76,6 +76,7 @@ module.exports =
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* unused harmony export ADD_TO_CART_MUTATION */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_apollo__ = __webpack_require__("react-apollo");
@@ -83,7 +84,7 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_graphql_tag__ = __webpack_require__("graphql-tag");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_graphql_tag___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_graphql_tag__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__User__ = __webpack_require__("./components/User.js");
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/AddToCart.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/AddToCart.js";
 
 var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  mutation addToCart($id: ID!) {\n    addToCart(id: $id) {\n      id\n      quantity\n    }\n  }\n"]);
 
@@ -155,6 +156,7 @@ function (_React$Component) {
 
 /* harmony default export */ __webpack_exports__["a"] = (AddToCart);
 
+
 /***/ }),
 
 /***/ "./components/DeleteItem.js":
@@ -168,7 +170,7 @@ function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_graphql_tag__ = __webpack_require__("graphql-tag");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_graphql_tag___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_graphql_tag__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Items__ = __webpack_require__("./components/Items.js");
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/DeleteItem.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/DeleteItem.js";
 
 var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  mutation DELETE_ITEM_MUTATION($id: ID!) {\n    deleteItem(id: $id) {\n      id\n    }\n  }\n"]);
 
@@ -292,7 +294,7 @@ function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__lib_formatMoney__ = __webpack_require__("./lib/formatMoney.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__DeleteItem__ = __webpack_require__("./components/DeleteItem.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__AddToCart__ = __webpack_require__("./components/AddToCart.js");
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/Item.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/Item.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -445,7 +447,7 @@ Object.defineProperty(Item, "propTypes", {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Item__ = __webpack_require__("./components/Item.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Pagination__ = __webpack_require__("./components/Pagination.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__config__ = __webpack_require__("./config.js");
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/Items.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/Items.js";
 
 var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  query ALL_ITEMS_QUERY($skip: Int = 0, $first: Int = ", ") {\n    items(first: $first, skip: $skip, orderBy: createdAt_DESC) {\n      id\n      title\n      price\n      description\n      image\n      largeImage\n    }\n  }\n"]);
 
@@ -475,11 +477,11 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 var ALL_ITEMS_QUERY = __WEBPACK_IMPORTED_MODULE_2_graphql_tag___default()(_templateObject, __WEBPACK_IMPORTED_MODULE_6__config__["b" /* perPage */]);
 var Center = __WEBPACK_IMPORTED_MODULE_3_styled_components___default.a.div.withConfig({
   displayName: "Items__Center",
-  componentId: "tikday-0"
+  componentId: "sc-tikday-0"
 })(["text-align:center;"]);
 var ItemsList = __WEBPACK_IMPORTED_MODULE_3_styled_components___default.a.div.withConfig({
   displayName: "Items__ItemsList",
-  componentId: "tikday-1"
+  componentId: "sc-tikday-1"
 })(["display:grid;grid-template-columns:1fr 1fr;grid-gap:60px;max-width:", ";margin:0 auto;"], function (props) {
   return props.theme.maxWidth;
 });
@@ -584,7 +586,7 @@ function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_next_head__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_next_link__);
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/Pagination.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/Pagination.js";
 
 var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  query PAGINATION_QUERY {\n    itemsConnection {\n      aggregate {\n        count\n      }\n    }\n  }\n"]);
 
@@ -709,9 +711,9 @@ var Pagination = function Pagination(props) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_graphql_tag___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_graphql_tag__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__("prop-types");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/User.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/User.js";
 
-var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  query {\n    me {\n      id\n      email\n      name\n      permissions\n      cart {\n        id\n        quantity\n        item {\n          id\n          price\n          image\n          title\n          description\n        }\n      }\n    }\n  }\n"]);
+var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  query {\n    me {\n      id\n      email\n      name\n      permissions\n      orders {\n        id\n      }\n      cart {\n        id\n        quantity\n        item {\n          id\n          price\n          image\n          title\n          description\n        }\n      }\n    }\n  }\n"]);
 
 
 
@@ -729,7 +731,7 @@ var User = function User(props) {
     query: CURRENT_USER_QUERY,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 31
     }
   }), function (payload) {
     return props.children(payload);
@@ -753,7 +755,7 @@ User.propTypes = {
 
 var Item = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.div.withConfig({
   displayName: "ItemStyles__Item",
-  componentId: "s16pk14u-0"
+  componentId: "sc-16pk14u-0"
 })(["background:white;border:1px solid ", ";box-shadow:", ";position:relative;display:flex;flex-direction:column;img{width:100%;height:400px;object-fit:cover;}p{font-size:12px;line-height:2;font-weight:300;flex-grow:1;padding:0 3rem;font-size:1.5rem;}.buttonList{display:grid;width:100%;border-top:1px solid ", ";grid-template-columns:repeat(auto-fit,minmax(100px,1fr));grid-gap:1px;background:", ";& > *{background:white;border:0;font-size:1rem;padding:1rem;}}"], function (props) {
   return props.theme.offWhite;
 }, function (props) {
@@ -776,7 +778,7 @@ var Item = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.div.withCon
 
 var PaginationStyles = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.div.withConfig({
   displayName: "PaginationStyles",
-  componentId: "aduuar-0"
+  componentId: "sc-aduuar-0"
 })(["text-align:center;display:inline-grid;grid-template-columns:repeat(4,auto);align-items:stretch;justify-content:center;align-content:center;margin:2rem 0;border:1px solid ", ";border-radius:10px;& > *{margin:0;padding:15px 30px;border-right:1px solid ", ";&:last-child{border-right:0;}}a[aria-disabled='true']{color:grey;pointer-events:none;}"], function (props) {
   return props.theme.lightgrey;
 }, function (props) {
@@ -795,7 +797,7 @@ var PaginationStyles = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a
 
 var PriceTag = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.span.withConfig({
   displayName: "PriceTag",
-  componentId: "nwbk6t-0"
+  componentId: "sc-nwbk6t-0"
 })(["background:", ";transform:rotate(3deg);color:white;font-weight:600;padding:5px;line-height:1;font-size:3rem;display:inline-block;position:absolute;top:-3px;right:-3px;"], function (props) {
   return props.theme.red;
 });
@@ -812,7 +814,7 @@ var PriceTag = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.span.wi
 
 var Title = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.h3.withConfig({
   displayName: "Title",
-  componentId: "s16nq74k-0"
+  componentId: "sc-16nq74k-0"
 })(["margin:0 1rem;text-align:center;transform:skew(-5deg) rotate(-1deg);margin-top:-3rem;text-shadow:2px 2px 0 rgba(0,0,0,0.1);a{background:", ";display:inline;line-height:1.3;font-size:4rem;text-align:center;color:white;padding:0 1rem;}"], function (props) {
   return props.theme.red;
 });
@@ -858,7 +860,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Items__ = __webpack_require__("./components/Items.js");
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/pages/index.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/pages/index.js";
 
 
 
@@ -881,7 +883,7 @@ var Home = function Home(props) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 7:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");

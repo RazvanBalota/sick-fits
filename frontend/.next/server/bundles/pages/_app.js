@@ -95,7 +95,7 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__lib_calcTotalPrice__ = __webpack_require__("./lib/calcTotalPrice.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__lib_formatMoney__ = __webpack_require__("./lib/formatMoney.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__TakeMyMoney__ = __webpack_require__("./components/TakeMyMoney.js");
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/Cart.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/Cart.js";
 
 var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  query {\n    cartOpen @client\n  }\n"]),
     _templateObject2 = /*#__PURE__*/ _taggedTemplateLiteral(["\n  mutation {\n    toggleCart @client\n  }\n"]);
@@ -244,18 +244,18 @@ var Cart = function Cart() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_transition_group___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_transition_group__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_styled_components__ = __webpack_require__("styled-components");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_styled_components__);
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/CartCount.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/CartCount.js";
 
 
 
 
 var AnimationStyles = __WEBPACK_IMPORTED_MODULE_3_styled_components___default.a.span.withConfig({
   displayName: "CartCount__AnimationStyles",
-  componentId: "xxvp4g-0"
+  componentId: "sc-xxvp4g-0"
 })(["position:relative;.count{display:block;position:relative;transition:all 0.4s;backface-visibility:hidden;}.count-enter{transform:rotateX(0.5turn);}.count-enter-active{transform:rotateX(0);}.count-exit{top:0;position:absolute;transform:rotateX(0);}.count-exit-active{transform:rotateX(0.5turn);}"]);
 var Dot = __WEBPACK_IMPORTED_MODULE_3_styled_components___default.a.div.withConfig({
   displayName: "CartCount__Dot",
-  componentId: "xxvp4g-1"
+  componentId: "sc-xxvp4g-1"
 })(["background:", ";color:white;border-radius:50%;padding:0.5rem;line-height:2rem;min-width:3rem;margin-left:1rem;font-weight:100;font-feature-settings:\"true\";font-variant-numeric:tabular-nums;"], function (props) {
   return props.theme.red;
 });
@@ -309,7 +309,7 @@ var CartCount = function CartCount(_ref) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lib_formatMoney__ = __webpack_require__("./lib/formatMoney.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RemoveFromCart__ = __webpack_require__("./components/RemoveFromCart.js");
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/CartItem.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/CartItem.js";
 
 
 
@@ -317,7 +317,7 @@ var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/com
 
 var CartItemStyles = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.li.withConfig({
   displayName: "CartItem__CartItemStyles",
-  componentId: "s1rm9l7o-0"
+  componentId: "sc-1rm9l7o-0"
 })(["padding:1rem 0;border-bottom:1px solid ", ";display:grid;align-items:center;grid-template-columns:auto 1fr auto;img{margin-right:10px;}h3,p{margin:0;}"], function (props) {
   return props.theme.lightgrey;
 });
@@ -402,13 +402,13 @@ CartItem.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__("prop-types");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/ErrorMessage.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/ErrorMessage.js";
 
 
 
 var ErrorStyles = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.div.withConfig({
   displayName: "ErrorMessage__ErrorStyles",
-  componentId: "s11u5fgj-0"
+  componentId: "sc-11u5fgj-0"
 })(["padding:2rem;background:white;margin:2rem 0;border:1px solid rgba(0,0,0,0.05);border-left:5px solid red;p{margin:0;font-weight:100;}strong{margin-right:1rem;}"]);
 
 var DisplayError = function DisplayError(_ref) {
@@ -484,7 +484,7 @@ DisplayError.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_nprogress___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_nprogress__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Cart__ = __webpack_require__("./components/Cart.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Search__ = __webpack_require__("./components/Search.js");
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/Header.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/Header.js";
 
 
 
@@ -508,13 +508,13 @@ __WEBPACK_IMPORTED_MODULE_4_next_router___default.a.onRouteChangeError = functio
 
 var Logo = __WEBPACK_IMPORTED_MODULE_3_styled_components___default.a.h1.withConfig({
   displayName: "Header__Logo",
-  componentId: "s2cpreo-0"
+  componentId: "sc-2cpreo-0"
 })(["font-size:4rem;margin-left:2rem;position:relative;z-index:2;transform:skew(-7deg);a{padding:0.5rem 1rem;background:", ";color:white;text-transform:uppercase;text-decoration:none;}@media (max-width:1300px){margin:0;text-align:center;}"], function (props) {
   return props.theme.red;
 });
 var StyledHeader = __WEBPACK_IMPORTED_MODULE_3_styled_components___default.a.header.withConfig({
   displayName: "Header__StyledHeader",
-  componentId: "s2cpreo-1"
+  componentId: "sc-2cpreo-1"
 })([".bar{border-bottom:10px solid ", ";display:grid;grid-template-columns:auto 1fr;justify-content:space-between;align-items:stretch;@media (max-width:1300px){grid-template-columns:1fr;justify-content:center;}}.sub-bar{display:grid;grid-template-columns:1fr auto;border-bottom:1px solid ", ";}"], function (props) {
   return props.theme.black;
 }, function (props) {
@@ -585,7 +585,7 @@ var Header = function Header() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("next/head");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/Meta.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/Meta.js";
 
 
 
@@ -650,7 +650,7 @@ var Meta = function Meta() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Signout__ = __webpack_require__("./components/Signout.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Cart__ = __webpack_require__("./components/Cart.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__CartCount__ = __webpack_require__("./components/CartCount.js");
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/Nav.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/Nav.js";
 
 
 
@@ -774,9 +774,7 @@ var Nav = function Nav() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Meta__ = __webpack_require__("./components/Meta.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_styled_components__ = __webpack_require__("styled-components");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_styled_components__);
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/Page.js";
-
-var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n@font-face{\n  font-family: 'radnika_next';\n  src: url('/static/radnikanext-medium-webfont.woff2');\n  format('woff2');\n  font-height: normal;\n  font-style: normal;\n}\n  html{\n    box-sizing: border-box;\n    font-size: 10px;\n  }\n  *,*:before, *:after{\n    box-sizing:inherit\n  }\n  body{\n    padding: 0;\n    margin:0;\n    font-size: 1.5rem;\n    line-height: 2;\n    font-family: 'radnika_next';\n  }\n  a {\n    text-decoration: none;\n    color: ", ";\n  }\n"]);
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/Page.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -791,8 +789,6 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
 
@@ -809,17 +805,17 @@ var theme = {
 };
 var StyledPage = __WEBPACK_IMPORTED_MODULE_3_styled_components___default.a.div.withConfig({
   displayName: "Page__StyledPage",
-  componentId: "s4u7a64-0"
+  componentId: "sc-4u7a64-0"
 })(["background:white;color:", ";"], function (props) {
   return props.theme.black;
 });
 var Inner = __WEBPACK_IMPORTED_MODULE_3_styled_components___default.a.div.withConfig({
   displayName: "Page__Inner",
-  componentId: "s4u7a64-1"
+  componentId: "sc-4u7a64-1"
 })(["max-width:", ";margin:0 auto;padding:2rem;"], function (props) {
   return props.theme.maxWidth;
 });
-Object(__WEBPACK_IMPORTED_MODULE_3_styled_components__["injectGlobal"])(_templateObject, theme.black);
+Object(__WEBPACK_IMPORTED_MODULE_3_styled_components__["injectGlobal"])(["@font-face{font-family:'radnika_next';src:url('/static/radnikanext-medium-webfont.woff2');format('woff2');font-height:normal;font-style:normal;}html{box-sizing:border-box;font-size:10px;}*,*:before,*:after{box-sizing:inherit}body{padding:0;margin:0;font-size:1.5rem;line-height:2;font-family:'radnika_next';}a{text-decoration:none;color:", ";}"], theme.black);
 
 var Page =
 /*#__PURE__*/
@@ -876,6 +872,7 @@ function (_Component) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* unused harmony export REMOVE_FROM_CART_MUTATION */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_apollo__ = __webpack_require__("react-apollo");
@@ -887,7 +884,7 @@ function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_graphql_tag__ = __webpack_require__("graphql-tag");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_graphql_tag___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_graphql_tag__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__User__ = __webpack_require__("./components/User.js");
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/RemoveFromCart.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/RemoveFromCart.js";
 
 var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  mutation removeFromCart($id: ID!) {\n    removeFromCart(id: $id) {\n      id\n    }\n  }\n"]);
 
@@ -916,7 +913,7 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 var REMOVE_FROM_CART_MUTATION = __WEBPACK_IMPORTED_MODULE_4_graphql_tag___default()(_templateObject);
 var BigButton = __WEBPACK_IMPORTED_MODULE_2_styled_components___default.a.button.withConfig({
   displayName: "RemoveFromCart__BigButton",
-  componentId: "emvtd6-0"
+  componentId: "sc-emvtd6-0"
 })(["font-size:3rem;background:none;border:0;&:hover{color:", ";cursor:pointer;}"], function (props) {
   return props.theme.red;
 });
@@ -1013,6 +1010,7 @@ Object.defineProperty(RemoveFromCart, "propTypes", {
 });
 /* harmony default export */ __webpack_exports__["a"] = (RemoveFromCart);
 
+
 /***/ }),
 
 /***/ "./components/Search.js":
@@ -1035,7 +1033,7 @@ Object.defineProperty(RemoveFromCart, "propTypes", {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_lodash_debounce___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_lodash_debounce__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__styles_DropDown__ = __webpack_require__("./components/styles/DropDown.js");
 
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/Search.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/Search.js";
 
 var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  query SEARCH_ITEMS_QUERY($searchTerm: String!) {\n    items(where: { OR: [{ title_contains: $searchTerm }, { description_contains: $searchTerm }] }) {\n      id\n      image\n      title\n    }\n  }\n"]);
 
@@ -1258,7 +1256,7 @@ function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_graphql_tag__ = __webpack_require__("graphql-tag");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_graphql_tag___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_graphql_tag__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__User__ = __webpack_require__("./components/User.js");
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/Signout.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/Signout.js";
 
 var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  mutation SIGN_OUT_MUTATION {\n    signout {\n      message\n    }\n  }\n"]);
 
@@ -1299,6 +1297,7 @@ var Signout = function Signout(props) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* unused harmony export CREATE_ORDER_MUTATION */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__ = __webpack_require__("@babel/runtime/regenerator");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
@@ -1319,7 +1318,7 @@ var Signout = function Signout(props) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ErrorMessage__ = __webpack_require__("./components/ErrorMessage.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__User__ = __webpack_require__("./components/User.js");
 
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/TakeMyMoney.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/TakeMyMoney.js";
 
 var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  mutation createOrder($token: String!) {\n    createOrder(token: $token) {\n      id\n      charge\n      total\n      items {\n        id\n        title\n      }\n    }\n  }\n"]);
 
@@ -1389,20 +1388,18 @@ function (_React$Component) {
             while (1) {
               switch (_context.prev = _context.next) {
                 case 0:
-                  __WEBPACK_IMPORTED_MODULE_5_nprogress__["NProgress"].start();
-                  console.log("On token called");
-                  console.log(res.id); // manually call the mutation once we have the stripe token
+                  __WEBPACK_IMPORTED_MODULE_5_nprogress___default.a.start(); // manually call the mutation once we have the stripe token
 
-                  _context.next = 5;
+                  _context.next = 3;
                   return createOrder({
                     variables: {
                       token: res.id
                     }
                   }).catch(function (err) {
-                    return alert(err.message);
+                    alert(err.message);
                   });
 
-                case 5:
+                case 3:
                   order = _context.sent;
                   __WEBPACK_IMPORTED_MODULE_4_next_router___default.a.push({
                     pathname: "/order",
@@ -1411,7 +1408,7 @@ function (_React$Component) {
                     }
                   });
 
-                case 7:
+                case 5:
                 case "end":
                   return _context.stop();
               }
@@ -1437,7 +1434,9 @@ function (_React$Component) {
           lineNumber: 51
         }
       }, function (_ref2) {
-        var me = _ref2.data.me;
+        var me = _ref2.data.me,
+            loading = _ref2.loading;
+        if (loading) return null;
         return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_apollo__["Mutation"], {
           mutation: CREATE_ORDER_MUTATION,
           refetchQueries: [{
@@ -1445,13 +1444,13 @@ function (_React$Component) {
           }],
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 53
+            lineNumber: 55
           }
         }, function (createOrder) {
           return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_stripe_checkout___default.a, {
             amount: Object(__WEBPACK_IMPORTED_MODULE_8__lib_calcTotalPrice__["a" /* default */])(me.cart),
             name: "Sick Fits",
-            description: "Order of ".concat(totalItems(me.cart), " items"),
+            description: "Order of ".concat(totalItems(me.cart), " items!"),
             image: me.cart.length && me.cart[0].item && me.cart[0].item.image,
             stripeKey: API_KEY,
             currency: "USD",
@@ -1461,7 +1460,7 @@ function (_React$Component) {
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 57
+              lineNumber: 59
             }
           }, _this2.props.children);
         });
@@ -1473,6 +1472,7 @@ function (_React$Component) {
 }(__WEBPACK_IMPORTED_MODULE_1_react___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["a"] = (TakeMyMoney);
+
 
 /***/ }),
 
@@ -1489,9 +1489,9 @@ function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_graphql_tag___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_graphql_tag__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__("prop-types");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/components/User.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/components/User.js";
 
-var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  query {\n    me {\n      id\n      email\n      name\n      permissions\n      cart {\n        id\n        quantity\n        item {\n          id\n          price\n          image\n          title\n          description\n        }\n      }\n    }\n  }\n"]);
+var _templateObject = /*#__PURE__*/ _taggedTemplateLiteral(["\n  query {\n    me {\n      id\n      email\n      name\n      permissions\n      orders {\n        id\n      }\n      cart {\n        id\n        quantity\n        item {\n          id\n          price\n          image\n          title\n          description\n        }\n      }\n    }\n  }\n"]);
 
 
 
@@ -1509,7 +1509,7 @@ var User = function User(props) {
     query: CURRENT_USER_QUERY,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 31
     }
   }), function (payload) {
     return props.children(payload);
@@ -1533,7 +1533,7 @@ User.propTypes = {
 
 var CartStyles = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.div.withConfig({
   displayName: "CartStyles",
-  componentId: "s1tvog53-0"
+  componentId: "sc-1tvog53-0"
 })(["padding:20px;position:relative;background:white;position:fixed;height:100%;top:0;right:0;width:40%;min-width:500px;bottom:0;transform:translateX(100%);transition:all 0.3s;box-shadow:0 0 10px 3px rgba(0,0,0,0.2);z-index:5;display:grid;grid-template-rows:auto 1fr auto;", ";header{border-bottom:5px solid ", ";margin-bottom:2rem;padding-bottom:2rem;}footer{border-top:10px double ", ";margin-top:2rem;padding-top:2rem;display:grid;grid-template-columns:auto auto;align-items:center;font-size:3rem;font-weight:900;p{margin:0;}}ul{margin:0;padding:0;list-style:none;overflow:scroll;}"], function (props) {
   return props.open && "transform: translateX(0);";
 }, function (props) {
@@ -1554,7 +1554,7 @@ var CartStyles = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.div.w
 
 var CloseButton = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.button.withConfig({
   displayName: "CloseButton",
-  componentId: "s1seb878-0"
+  componentId: "sc-1seb878-0"
 })(["background:black;color:white;font-size:3rem;border:0;position:absolute;z-index:2;right:0;"]);
 /* harmony default export */ __webpack_exports__["a"] = (CloseButton);
 
@@ -1572,13 +1572,13 @@ var CloseButton = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.butt
 
 var DropDown = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.div.withConfig({
   displayName: "DropDown",
-  componentId: "n5d97g-0"
+  componentId: "sc-n5d97g-0"
 })(["position:absolute;width:100%;z-index:2;border:1px solid ", ";"], function (props) {
   return props.theme.lightgrey;
 });
 var DropDownItem = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.div.withConfig({
   displayName: "DropDown__DropDownItem",
-  componentId: "n5d97g-1"
+  componentId: "sc-n5d97g-1"
 })(["border-bottom:1px solid ", ";background:", ";padding:1rem;transition:all 0.2s;", ";display:flex;align-items:center;border-left:10px solid ", ";img{margin-right:10px;}"], function (props) {
   return props.theme.lightgrey;
 }, function (props) {
@@ -1591,7 +1591,7 @@ var DropDownItem = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.div
 var glow = Object(__WEBPACK_IMPORTED_MODULE_0_styled_components__["keyframes"])(["from{box-shadow:0 0 0px yellow;}to{box-shadow:0 0 10px 1px yellow;}"]);
 var SearchStyles = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.div.withConfig({
   displayName: "DropDown__SearchStyles",
-  componentId: "n5d97g-2"
+  componentId: "sc-n5d97g-2"
 })(["position:relative;input{width:100%;padding:10px;border:0;font-size:2rem;&.loading{animation:", " 0.5s ease-in-out infinite alternate;}}"], glow);
 
 
@@ -1606,7 +1606,7 @@ var SearchStyles = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.div
 
 var NavStyles = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.ul.withConfig({
   displayName: "NavStyles",
-  componentId: "s11c0d2g-0"
+  componentId: "sc-11c0d2g-0"
 })(["margin:0;padding:0;display:flex;justify-self:end;font-size:2rem;a,button{padding:1rem 3rem;display:flex;align-items:center;position:relative;text-transform:uppercase;font-weight:900;font-size:1em;background:none;border:0;cursor:pointer;color:", ";font-weight:800;@media (max-width:700px){font-size:10px;padding:0 10px;}&:before{content:\"\";width:2px;background:", ";height:100%;left:0;position:absolute;transform:skew(-20deg);top:0;bottom:0;}&:after{height:2px;background:red;content:\"\";width:0;position:absolute;transform:translateX(-50%);transition:width 0.4s;transition-timing-function:cubic-bezier(1,-0.65,0,2.31);left:50%;margin-top:2rem;}&:hover,&:focus{outline:none;&:after{width:calc(100% - 60px);}}}@media (max-width:1300px){border-top:1px solid ", ";width:100%;justify-content:center;font-size:1.5rem;}"], function (props) {
   return props.theme.black;
 }, function (props) {
@@ -1627,7 +1627,7 @@ var NavStyles = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.ul.wit
 
 var SickButton = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.button.withConfig({
   displayName: "SickButton",
-  componentId: "l04z44-0"
+  componentId: "sc-l04z44-0"
 })(["background:red;color:white;font-weight:500;border:0;border-radius:0;text-transform:uppercase;font-size:2rem;padding:0.8rem 1.5rem;transform:skew(-2deg);display:inline-block;transition:all 0.5s;&[disabled]{opacity:0.5;}"]);
 /* harmony default export */ __webpack_exports__["a"] = (SickButton);
 
@@ -1642,7 +1642,7 @@ var SickButton = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.butto
 
 var Supreme = __WEBPACK_IMPORTED_MODULE_0_styled_components___default.a.h3.withConfig({
   displayName: "Supreme",
-  componentId: "xv30qb-0"
+  componentId: "sc-xv30qb-0"
 })(["background:", ";color:white;display:inline-block;padding:4px 5px;transform:skew(-3deg);margin:0;font-size:4rem;"], function (props) {
   return props.theme.red;
 });
@@ -1772,7 +1772,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_apollo___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react_apollo__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__lib_withData__ = __webpack_require__("./lib/withData.js");
 
-var _jsxFileName = "/home/razvanb/projects/Advanced-React/sick-fits/frontend/pages/_app.js";
+var _jsxFileName = "/home/razvanb/projects/sick-fits/frontend/pages/_app.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }

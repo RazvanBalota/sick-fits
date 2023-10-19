@@ -53,12 +53,12 @@ class OrderList extends Component {
                         <div className="order-meta">
                           <p>{order.items.reduce((a, b) => a + b.quantity, 0)} Items</p>
                           <p>{order.items.length} Products</p>
-                          <p>{formatDistance(order.createdAt, new Date())}</p>
                           <p>{formatMoney(order.total)}</p>
                         </div>
                         <div className="images">
                           {order.items.map((item) => (
                             <img
+                              width="100"
                               key={item.id}
                               src={item.image}
                               alt={item.title}

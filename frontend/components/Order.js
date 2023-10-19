@@ -56,10 +56,7 @@ class Order extends React.Component {
                 <span>Charge</span>
                 <span>{order.charge} </span>
               </p>
-              <p>
-                <span>Date</span>
-                <span>{format(order.createdAt, "MMMM d, YYYY h:mm a")} </span>
-              </p>
+
               <p>
                 <span>Order Total</span>
                 <span>{formatMoney(order.total)} </span>
