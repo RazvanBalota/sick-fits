@@ -7,8 +7,9 @@
     "preinstall": "npx npm-force-resolutions",
     "dev": "next -p 7777",
     "build": "next build",
-    "start": "next start",
-    "test": "NODE_ENV=test jest --watch"
+    "start": "next start -p $PORT",
+    "test": "NODE_ENV=test jest --watch",
+    "heroku-postbuild": "next build"
   },
   "author": "",
   "license": "ISC",
