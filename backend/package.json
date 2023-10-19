@@ -35,5 +35,8 @@
     "presets": [
       "env"
     ]
+  },
+  "engines": {
+    "node": "20.7.0"
   }
 }
