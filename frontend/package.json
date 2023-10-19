@@ -48,8 +48,8 @@
     "node": "^16.0.0"
   },
   "resolutions": {
-    "graphql": "^15.6.1",
-    "**/graphql": "^15.6.1"
+    "graphql": "15.6.1",
+    "**/graphql": "15.6.1"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/jest.setup.js",
